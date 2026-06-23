@@ -24,7 +24,7 @@ MrCardChecker is a professional, dark‑themed GUI application built with **PyQt
 
 *(Placeholder – replace with actual screenshots once you run the app.)*
 
-* **Main Interface:** ![Main Dashboard](mrcardchecker.live/public/image/1.png)
+* **Main Interface:** ![Main Dashboard](https://screenshots/Screenshot (152).png)
 * **Premium Dashboard:** ![Premium Gate](https://screenshots/premium.png)
 
 ---
