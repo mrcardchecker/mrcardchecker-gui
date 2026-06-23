@@ -11,7 +11,7 @@ MrCardChecker is a professional, dark‑themed GUI application built with **PyQt
 | Feature | Description |
 | :--- | :--- |
 | **CCN Gate 1 (Free)** | CC checker (credit card checker) is a tool that validates the structural integrity of a credit card number without performing any real transaction. Our advanced validator uses the Luhn algorithm (MOD 10), a checksum formula widely adopted by payment networks like Visa, Mastercard, Amex, and Discover. It instantly tells you whether a card number is mathematically valid — essential for developers, QA testers, and e‑commerce platforms to prevent costly declined payments. |
-| **CCN3 Gate Premium** | Requires login; uses your existing user dashboard. Support Visa, Amex and Master Card. Charge $1 - $4. | Stripe Auth & Braintree Auth | Anti Merchant Die.
+| **CCN3 Gate Premium** | Requires login; uses your existing user dashboard. Support Visa, Amex and Master Card. Charge $1 - $4. | Stripe Auth & Braintree Auth Anti Merchant Die.
 | **BIN Checker** | Enter the first 6 digits and instantly get brand, card type (Credit/Debit), and level (Classic, Gold, Platinum, Infinite). |
 | **BIN Generator** | Generate any number of valid test cards (with Luhn checksum) from a given BIN. Output format: `NUMBER\|MM\|YY\|CVV`. |
 | **Background Threading** | All heavy tasks run in separate threads – the GUI never freezes. You can start/stop at any time. |
