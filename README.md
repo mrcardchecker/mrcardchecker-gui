@@ -45,18 +45,18 @@ MrCardChecker is a professional, dark‑themed GUI application built with **PyQt
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/mrcardchecker-gui.git](https://github.com/mrcardchecker/mrcardchecker-gui.git)
+git clone [https://github.com/mrcardchecker/mrcardchecker-gui.git](https://github.com/mrcardchecker/mrcardchecker-gui.git)
 cd mrcardchecker-gui
 sudo apt update
 sudo apt install python3-pyqt5 python3-requests
 pip3 install -r requirements.txt
 chmod +x main.py
 sudo cp mrcardchecker.desktop /usr/share/applications/
+
 sudo update-desktop-database
 🚀 How to Run
 From the project directory:
 
-Bash
 python3 main.py
 Or, if you installed the .desktop file, simply click the menu icon from your desktop environment.
 🧠 How It Works
