@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MrCardChecker
+Comment=Advanced Credit Card Validator & BIN Tool
+Exec=/usr/bin/python3 /path/to/mrcardchecker-gui/main.py
+Icon=/path/to/mrcardchecker-gui/gui/resources/icon.png
+Terminal=false
+Categories=Utility;Network;Security;PenetrationTest;
+StartupNotify=true

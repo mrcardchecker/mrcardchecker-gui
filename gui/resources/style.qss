@@ -1,0 +1,266 @@
+/* ============================================================
+   MRCARDCHECKER – Premium Dark Theme
+   ============================================================ */
+
+/* ---------- Main Window ---------- */
+QMainWindow {
+    background-color: #1a1a1a;
+}
+
+/* ---------- Header ---------- */
+#premiumHeader {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #0f0f1a, stop:0.5 #1a1a2e, stop:1 #0f0f1a);
+    border-bottom: 2px solid qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ffb830, stop:0.5 #f59e0b, stop:1 #ffb830);
+}
+
+#appTitle {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 1px;
+}
+
+#appSubtitle {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+#linkBtn {
+    background: rgba(255, 255, 255, 0.06);
+    color: #94a3b8;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 11px;
+    font-weight: 500;
+}
+#linkBtn:hover {
+    background: rgba(255, 184, 48, 0.15);
+    color: #ffffff;
+    border-color: #ffb830;
+}
+
+/* ---------- Tabs ---------- */
+QTabWidget::pane {
+    border: none;
+    background-color: #1a1a1a;
+}
+
+QTabBar::tab {
+    background-color: #2a2a2a;
+    color: #94a3b8;
+    padding: 10px 20px;
+    margin-right: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+}
+QTabBar::tab:selected {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #2a2a2a, stop:1 #1a1a1a);
+    color: #ffffff;
+}
+QTabBar::tab:hover {
+    color: #ffffff;
+}
+
+/* ---------- Group Boxes ---------- */
+#inputGroup, #outputGroup {
+    background-color: #121212;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding-top: 12px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+#inputGroup::title, #outputGroup::title {
+    subcontrol-origin: margin;
+    left: 15px;
+    padding: 0 8px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* ---------- Input/Output Consoles ---------- */
+#inputConsole, #outputConsole {
+    background-color: #0a0a0a;
+    color: #d3d7cf;
+    border: 1px solid #1a1a1a;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: "Monospace", "Consolas", monospace;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+#inputConsole {
+    min-height: 100px;
+}
+
+#outputConsole {
+    min-height: 150px;
+}
+
+#inputConsole:focus, #binInput:focus, #genInput:focus {
+    border-color: #ffb830;
+}
+
+/* ---------- Buttons ---------- */
+QPushButton {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 11px;
+    transition: all 0.2s;
+}
+
+#startBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #22c55e, stop:1 #16a34a);
+    color: white;
+}
+#startBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #4ade80, stop:1 #22c55e);
+    transform: scale(1.02);
+}
+#startBtn:disabled {
+    background: #2a2a2a;
+    color: #666666;
+}
+
+#stopBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ef4444, stop:1 #dc2626);
+    color: white;
+}
+#stopBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #f87171, stop:1 #ef4444);
+}
+#stopBtn:disabled {
+    background: #2a2a2a;
+    color: #666666;
+}
+
+#clearBtn {
+    background: #2a2a2a;
+    color: #94a3b8;
+}
+#clearBtn:hover {
+    background: #3a3a3a;
+    color: #ffffff;
+}
+
+#loginBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ffb830, stop:1 #f59e0b);
+    color: #1a1a1a;
+    font-weight: 700;
+}
+#loginBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ffd460, stop:1 #ffb830);
+}
+
+#lookupBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #3b82f6, stop:1 #2563eb);
+    color: white;
+}
+#lookupBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #60a5fa, stop:1 #3b82f6);
+}
+
+/* ---------- Status Bar ---------- */
+#statusBarFrame {
+    background-color: #0a0a0a;
+    border-top: 1px solid #1a1a1a;
+}
+
+#statusLabel {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+#versionLabel {
+    color: #475569;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+/* ---------- Premium Status ---------- */
+#premiumStatus {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ff5555;
+}
+
+/* ---------- Progress Bar ---------- */
+QProgressBar {
+    border: none;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    height: 6px;
+    text-align: center;
+}
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ffb830, stop:1 #f59e0b);
+    border-radius: 4px;
+}
+
+/* ---------- Input Fields ---------- */
+#binInput, #genInput {
+    background-color: #0a0a0a;
+    color: #d3d7cf;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-family: "Monospace", "Consolas", monospace;
+    font-size: 11pt;
+    min-width: 120px;
+}
+
+#genSpin {
+    background-color: #0a0a0a;
+    color: #d3d7cf;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 4px 8px;
+    min-width: 60px;
+}
+
+/* ---------- Scrollbar ---------- */
+QScrollBar:vertical {
+    background: #0a0a0a;
+    width: 10px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical {
+    background: #2a2a2a;
+    border-radius: 4px;
+    min-height: 30px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #3a3a3a;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ---------- Text Edit Selection ---------- */
+QTextEdit {
+    selection-background-color: #ffb830;
+    selection-color: #1a1a1a;
+}
